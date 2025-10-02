@@ -9,8 +9,8 @@ function App() {
       <Header />
       <Card
         img = {{
-          src : "./rules.jpg",
-          alt: ""
+          src : "./afc-east.png",
+          alt: "afc-east"
         }}
         title = "AFC East:"
         subtitle = "Teams:"
@@ -22,8 +22,8 @@ function App() {
       />
       <Card
         img = {{
-          src : "",
-          alt: ""
+          src : "afc-north.png",
+          alt: "afc-north"
         }}
         title = "AFC North"
         subtitle = "Teams:"
@@ -35,8 +35,8 @@ function App() {
         />
         <Card
         img = {{
-          src : "",
-          alt: ""
+          src : "./afc-south.png",
+          alt: "afc-south"
         }}
         title = "AFC South"
         subtitle = "Teams"
