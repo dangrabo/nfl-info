@@ -65,7 +65,7 @@ function App() {
           src : "",
           alt: ""
         }}
-        title = "NFC Eest"
+        title = "NFC East"
         subtitle = "Teams:"
         content = {
           [
