@@ -48,8 +48,8 @@ function App() {
         />  
          <Card
         img = {{
-          src : "",
-          alt: ""
+          src : "./afc-west.png",
+          alt: "afc-west"
         }}
         title = "AFC West"
         subtitle = "Teams:"
@@ -62,8 +62,8 @@ function App() {
          
         <Card
         img = {{
-          src : "",
-          alt: ""
+          src : "nfc-east.png",
+          alt: "nfc-east"
         }}
         title = "NFC Eest"
         subtitle = "Teams:"
@@ -75,7 +75,7 @@ function App() {
         />
         <Card
         img = {{
-          src : "",
+          src : "./nfc-north.png",
           alt: ""
         }}
         title = "NFC North"
@@ -86,10 +86,9 @@ function App() {
           ]
         } 
         />
-         />
         <Card
         img = {{
-          src : "",
+          src : "./nfc-south.jpg",
           alt: ""
         }}
         title = "NFC South"
@@ -102,7 +101,7 @@ function App() {
         />
           <Card
         img = {{
-          src : "",
+          src : "./nfc-west.png",
           alt: ""
         }}
         title = "NFC West"
