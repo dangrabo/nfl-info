@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    background-color: rgb(188, 188, 188);
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -15,6 +19,27 @@ header {
     width: 5rem;
 }
 
-h1 {
+.card {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    gap: 3rem;
+    background-color: gray;
+    padding: 1rem;
+    border-radius: 30px;
+    border: 2px solid skyblue;
+}
 
+h2 {
+    font-size: 32px;
+}
+
+.card p {
+    margin-left: 10px;
+    font-weight: 900;
+    color: skyblue;
+}
+
+.card-image {
+    width: 25rem;
 }

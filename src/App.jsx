@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Card
         img = {{
-          src : "",
+          src : "./rules.jpg",
           alt: ""
         }}
         title = "AFC East:"
