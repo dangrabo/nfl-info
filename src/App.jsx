@@ -65,7 +65,7 @@ function App() {
           src : "nfc-east.png",
           alt: "nfc-east"
         }}
-        title = "NFC Eest"
+        title = "NFC East"
         subtitle = "Teams:"
         content = {
           [
