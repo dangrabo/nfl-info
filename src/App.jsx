@@ -12,14 +12,53 @@ function App() {
           src : "",
           alt: ""
         }}
-        title = "Title"
-        subtitle = "subtitle"
+        title = "AFC East:"
+        subtitle = "Teams:"
         content = {
           [
-            "line 1", "line 2", "line 3"
+            "Buffalo Bills", "Miami Dolphins", "New England Patriots", "New York Jets"
           ]
         } 
       />
+      <Card
+        img = {{
+          src : "",
+          alt: ""
+        }}
+        title = "AFC North"
+        subtitle = "Teams:"
+        content = {
+          [
+            "Baltimore Ravens", "Cincinnati Bengals", "Cleveland Browns", "Pittsburgh Steelers"
+          ]
+        }
+        />
+        <Card
+        img = {{
+          src : "",
+          alt: ""
+        }}
+        title = "AFC South"
+        subtitle = "Teams"
+        content = {
+          [
+            "Houston Texans", "Indianapolis Colts", "Jacksonville Jaguars", "Tennessee Titans"
+          ]
+        }
+        />  
+         <Card
+        img = {{
+          src : "",
+          alt: ""
+        }}
+        title = "AFC West"
+        subtitle = "Teams:"
+        content = {
+          [
+            "Denver Broncos", "Kansas City Chiefs", "Las Vegas Raiders", "Los Angeles Chargers"
+          ]
+        }
+        />  
 
     </>
   )
