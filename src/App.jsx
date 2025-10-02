@@ -58,7 +58,62 @@ function App() {
             "Denver Broncos", "Kansas City Chiefs", "Las Vegas Raiders", "Los Angeles Chargers"
           ]
         }
-        />  
+        />
+         
+        <Card
+        img = {{
+          src : "",
+          alt: ""
+        }}
+        title = "NFC Eest"
+        subtitle = "Teams:"
+        content = {
+          [
+            "Dallas Cowboys", "New York Giants", "Philadelphia Eagles", "Washington Commanders"
+          ]
+        } 
+        />
+        <Card
+        img = {{
+          src : "",
+          alt: ""
+        }}
+        title = "NFC North"
+        subtitle = "Teams:"
+        content = {
+          [
+            "Chicago Bears", "Detroit Lions", "Green Bay Packers", "Minnesota Vikings"
+          ]
+        } 
+        />
+         />
+        <Card
+        img = {{
+          src : "",
+          alt: ""
+        }}
+        title = "NFC South"
+        subtitle = "Teams:"
+        content = {
+          [
+            "Atlanta Falcons", "Carolina Panthers", "New Orleans Saints", "Tampa Bay Buccaneers"
+          ]
+        } 
+        />
+          <Card
+        img = {{
+          src : "",
+          alt: ""
+        }}
+        title = "NFC West"
+        subtitle = "Teams:"
+        content = {
+          [
+            "Arizona Cardinals", "Los Angeles Rams", "San Francisco 49ers", "Seattle Seahawks"
+          ]
+        } 
+        />
+        
 
     </>
   )
